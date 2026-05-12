@@ -1,5 +1,4 @@
-# Glossário:
-
+# Glossário
 ## Dashboard:
 Uma interface visual que exibe dados e métricas importantes de forma consolidada, permitindo uma análise rápida e eficiente das informações apresentadas.
 
