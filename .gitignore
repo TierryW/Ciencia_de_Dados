@@ -218,4 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-.idea
+.idea/inspectionProfiles
+.idea/Ciencia_de_Dados.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
