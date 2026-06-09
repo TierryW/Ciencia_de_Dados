@@ -1,0 +1,171 @@
+state_name,First_name,Gender,Job_Title,Id_client,Total_Purchases,Total_Spent
+IL,Jacob,Male,Teacher,118,3,211.0
+GA,Portie,Female,Teacher,117,3,312.0
+CA,Marten,Non-binary,Web Developer IV,116,3,187.0
+AZ,Ralf,Female,Senior Quality Engineer,115,3,235.0
+IN,Lennard,Female,Administrative Assistant II,114,3,76.0
+DC,Bartolomeo,Male,Executive Secretary,113,3,188.0
+TX,Ingemar,Genderqueer,Account Coordinator,112,3,136.0
+OR,Scott,Female,Civil Engineer,40,3,201.0
+MA,Codie,Female,Financial Analyst,39,3,310.0
+PA,Rab,Male,Assistant Manager,38,3,321.0
+ND,Cornie,Genderqueer,Editor,37,3,166.0
+DC,Reuven,Female,Media Manager IV,162,2,117.0
+NC,Dietrich,Male,Paralegal,161,2,105.0
+IL,Godard,Female,Senior Editor,160,2,126.0
+PA,Adolphe,Female,Database Administrator II,159,2,198.0
+IL,Jarib,Genderfluid,Food Chemist,158,2,280.0
+TX,Dale,Female,Senior Cost Accountant,157,2,176.0
+FL,Ross,Male,Senior Financial Analyst,156,2,227.0
+DC,Karlens,Male,Desktop Support Technician,155,2,193.0
+NJ,Talbot,Male,VP Marketing,154,2,154.0
+TN,Nial,Male,Help Desk Technician,153,2,226.0
+HI,Teador,Female,Assistant Media Planner,152,2,232.0
+KS,Cornie,Male,Engineer II,151,2,213.0
+DC,Boothe,Male,Marketing Manager,150,2,114.0
+TX,Raynard,Female,Environmental Specialist,149,2,67.0
+ID,Harold,Female,Sales Associate,148,2,121.0
+MA,Claiborne,Female,Dental Hygienist,147,2,61.0
+FL,Con,Male,Operator,146,2,151.0
+NJ,Justino,Female,Teacher,145,2,107.0
+UT,Teddy,Male,Payment Adjustment Coordinator,144,2,87.0
+CA,Trip,Female,Data Coordinator,143,2,128.0
+TX,Raimondo,Male,Administrative Assistant IV,142,2,182.0
+OH,Britt,Male,Accounting Assistant III,141,2,262.0
+PA,Baron,Female,Safety Technician III,140,2,6.0
+MA,Reilly,Female,Nurse,139,2,169.0
+OR,Obadiah,Male,Office Assistant II,138,2,63.0
+IN,Swen,Agender,Pharmacist,137,2,81.0
+DC,Saul,Female,VP Marketing,124,2,171.0
+VA,Ross,Male,Analog Circuit Design manager,123,2,135.0
+KS,Inigo,Female,Programmer Analyst II,122,2,145.0
+OH,Bartel,Female,Actuary,121,2,250.0
+NY,Dougy,Male,Computer Systems Analyst IV,120,2,91.0
+NC,Joaquin,Male,Product Engineer,119,2,263.0
+VA,Adams,Female,Clinical Specialist,111,2,139.0
+TX,Yehudi,Genderfluid,Project Manager,110,2,131.0
+OH,Kyle,Male,Actuary,109,2,185.0
+NC,Turner,Female,Developer IV,108,2,95.0
+WA,Titos,Male,Nuclear Power Engineer,107,2,27.0
+IN,Vassili,Male,Chemical Engineer,106,2,174.0
+TX,Christoph,Female,Quality Control Specialist,105,2,147.0
+MN,Tynan,Male,VP Sales,104,2,112.0
+NY,Finley,Male,Associate Professor,103,2,125.0
+NY,Mendy,Male,Web Designer III,102,2,126.0
+CA,Blayne,Female,Software Engineer IV,101,2,249.0
+AL,Renault,Agender,Biostatistician IV,100,2,200.0
+FL,Siegfried,Female,VP Product Management,79,2,96.0
+DC,Zeke,Female,Research Associate,78,2,193.0
+CT,Codie,Female,Media Manager I,77,2,189.0
+TX,Raul,Male,Speech Pathologist,76,2,117.0
+LA,Dionysus,Female,Legal Assistant,75,2,232.0
+NE,Galvan,Male,Teacher,74,2,72.0
+DC,Rafe,Genderfluid,Senior Editor,73,2,98.0
+TX,Allistir,Female,Chief Design Engineer,72,2,137.0
+CA,Neil,Female,Geologist IV,71,2,180.0
+PA,Bordie,Male,Sales Associate,70,2,45.0
+CA,Domingo,Female,Recruiter,69,2,203.0
+OR,Matteo,Bigender,Social Worker,68,2,118.0
+KY,Cornelius,Male,Recruiting Manager,67,2,125.0
+LA,Lazare,Male,Associate Professor,66,2,148.0
+CA,Wolf,Male,Recruiting Manager,65,2,104.0
+SD,Lucio,Female,Web Developer IV,64,2,241.0
+AR,Fons,Female,Senior Developer,63,2,54.0
+CA,Cchaddie,Male,Business Systems Development Analyst,62,2,216.0
+CA,Angus,Female,Senior Sales Associate,61,2,61.0
+CA,Davidde,Male,VP Marketing,60,2,136.0
+NY,Frederich,Female,Health Coach II,59,2,204.0
+NV,Emlyn,Female,Business Systems Development Analyst,58,2,67.0
+MA,Marmaduke,Non-binary,Sales Associate,57,2,173.0
+MO,Marius,Male,Senior Cost Accountant,56,2,172.0
+TX,Alford,Female,Human Resources Assistant I,55,2,141.0
+WV,Chip,Agender,Recruiting Manager,54,2,22.0
+DC,Shurlock,Polygender,Junior Executive,53,2,77.0
+OR,Zebadiah,Female,Desktop Support Technician,52,2,130.0
+NY,Reinaldo,Female,Editor,51,2,134.0
+NV,Sergent,Male,Geologist II,50,2,273.0
+NY,Jareb,Male,Sales Associate,49,2,165.0
+MS,Rabi,Genderfluid,Director of Sales,48,2,144.0
+AZ,Lisle,Female,Web Designer I,47,2,184.0
+PA,Demetris,Female,Programmer Analyst IV,46,2,268.0
+FL,Karlan,Female,Financial Advisor,45,2,57.0
+CA,Federico,Non-binary,Nurse Practicioner,44,2,134.0
+TX,Raffarty,Male,General Manager,43,2,94.0
+CA,Keir,Female,Senior Editor,42,2,216.0
+MS,Hilary,Male,Design Engineer,41,2,167.0
+TX,Turner,Male,Automation Specialist IV,36,2,178.0
+VA,Mile,Male,Occupational Therapist,35,2,163.0
+WA,Sherm,Male,Senior Financial Analyst,34,2,39.0
+FL,Bo,Male,VP Product Management,33,2,148.0
+CA,Tobin,Male,Food Chemist,32,2,209.0
+NE,Reinwald,Male,Sales Representative,31,2,155.0
+OH,Moishe,Female,Human Resources Assistant III,30,2,150.0
+MI,Jonas,Male,Cost Accountant,29,2,250.0
+MI,Mattheus,Female,Pharmacist,28,2,112.0
+TX,Emelen,Male,Project Manager,27,2,198.0
+LA,Desmund,Female,Senior Sales Associate,26,2,210.0
+LA,Elwyn,Male,Senior Developer,25,2,182.0
+GA,Harcourt,Female,Web Designer III,24,2,86.0
+FL,Clyde,Female,Dental Hygienist,23,2,78.0
+LA,Duffie,Female,Information Systems Manager,22,2,104.0
+LA,Augusto,Female,Research Nurse,21,2,47.0
+LA,Kalil,Genderfluid,Senior Editor,20,2,130.0
+MD,Sheridan,Male,Assistant Manager,19,2,12.0
+OH,Timothy,Female,Marketing Manager,18,2,145.0
+VA,Willem,Female,Media Manager II,17,2,32.0
+MN,Tanney,Female,VP Marketing,5,2,89.0
+OR,Murvyn,Female,Safety Technician IV,175,1,141.0
+OK,Pip,Male,Chief Design Engineer,174,1,36.0
+NY,Jacob,Male,Senior Financial Analyst,173,1,28.0
+DC,Lambert,Agender,Chemical Engineer,172,1,130.0
+UT,Fairleigh,Male,Desktop Support Technician,171,1,35.0
+NY,Tremain,Female,Executive Secretary,170,1,138.0
+AL,Seward,Female,Editor,169,1,5.0
+TX,Nicol,Male,Director of Sales,168,1,17.0
+KS,Melvin,Male,Senior Quality Engineer,167,1,135.0
+IN,Courtnay,Male,Quality Engineer,166,1,114.0
+AL,Ricoriki,Male,Sales Representative,165,1,1.0
+VA,Marius,Female,Safety Technician III,164,1,62.0
+MD,Tadd,Female,Electrical Engineer,163,1,118.0
+FL,Edgar,Polygender,Biostatistician IV,136,1,93.0
+VA,Chrisse,Male,Technical Writer,135,1,42.0
+VA,Christy,Female,Research Associate,134,1,101.0
+DC,Averill,Female,Assistant Professor,133,1,113.0
+CT,Alex,Male,VP Product Management,132,1,119.0
+AR,Harley,Female,Associate Professor,131,1,111.0
+FL,Angel,Female,Quality Engineer,130,1,128.0
+LA,Jamill,Female,Cost Accountant,129,1,100.0
+NY,Kirk,Male,Nuclear Power Engineer,128,1,137.0
+MI,Gaspard,Male,Automation Specialist I,127,1,63.0
+NJ,Anatol,Male,Sales Representative,126,1,0.0
+CA,Bary,Female,Technical Writer,125,1,148.0
+CA,Dewey,Female,Executive Secretary,99,1,104.0
+PA,Sebastien,Male,Media Manager III,98,1,114.0
+AL,Hamlin,Male,Media Manager I,97,1,136.0
+OH,Rhett,Female,Biostatistician IV,96,1,18.0
+IL,Denis,Female,VP Product Management,95,1,125.0
+CA,Lorens,Female,Staff Accountant IV,94,1,92.0
+VA,Norris,Genderqueer,Business Systems Development Analyst,93,1,79.0
+IN,Ambrosi,Male,Analyst Programmer,92,1,45.0
+FL,Riobard,Male,Technical Writer,91,1,86.0
+FL,Weylin,Male,Engineer I,90,1,66.0
+TX,Reade,Female,General Manager,89,1,81.0
+CA,Fransisco,Female,Design Engineer,88,1,23.0
+ID,Ruttger,Male,Chief Design Engineer,87,1,66.0
+FL,Gilburt,Female,Community Outreach Specialist,86,1,123.0
+DC,Kennan,Female,Project Manager,85,1,139.0
+TX,Anton,Male,Media Manager II,16,1,5.0
+DC,Guy,Female,Senior Cost Accountant,15,1,144.0
+TX,Nikolos,Male,Geologist III,14,1,108.0
+TX,Rodge,Genderfluid,Health Coach III,13,1,92.0
+CA,Cori,Female,Senior Sales Associate,12,1,104.0
+NC,Waring,Female,Software Consultant,11,1,96.0
+CA,Carmine,Female,Statistician II,10,1,55.0
+PA,Hi,Female,Senior Cost Accountant,9,1,139.0
+TX,Dante,Male,Geological Engineer,8,1,97.0
+CO,Adham,Male,Project Manager,7,1,149.0
+VA,Launce,Male,Automation Specialist I,6,1,15.0
+IL,Barnabas,Male,General Manager,4,1,8.0
+AL,Kimble,Male,Account Coordinator,3,1,37.0
+MI,Russell,Male,Speech Pathologist,2,1,143.0
+TX,Domingo,Male,Structural Analysis Engineer,1,1,16.0
