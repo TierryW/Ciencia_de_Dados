@@ -168,19 +168,25 @@ Durante o desenvolvimento deste projeto, pratiquei conceitos importantes de **An
 
 ## 🚀 Como Executar
 
-### 1. Clone o repositório
+1. Clone o repositório e acesse a pasta do projeto:
 
 ```bash
 git clone https://github.com/TierryW/Ciencia_de_Dados.git
 ```
 
-### 2. Instale as dependências
+2. Acesse a pasta do projeto:
 
 ```bash
-pip install pandas plotly
+cd Ciencia_de_Dados
 ```
 
-### 3. Execute o Jupyter Notebook
+3. Instale as bibliotecas utilizadas no projeto:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Execute o Jupyter Notebook
 
 ```bash
 jupyter notebook
@@ -199,6 +205,7 @@ jupyter notebook
 │
 ├── 📄 Projeto.ipynb
 ├── 📄 BASE_SUPERMERCADO.csv
+├── 📄 requirements.txt
 └── 📄 README.md
 ```
 
