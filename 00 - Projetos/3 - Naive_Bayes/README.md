@@ -67,8 +67,8 @@ Foram geradas matrizes de confusão tanto para os dados de treinamento quanto pa
 
 | Conjunto    | Acurácia | Recall |
 | ----------- | -------: | -----: |
-| Treinamento |   94,44% | 94,44% |
-| Teste       |   92,68% | 96,55% |
+| Treinamento |   94.44% | 94.44% |
+| Teste       |   92.68% | 96.55% |
 
 Os resultados mostram que o modelo apresentou um desempenho consistente entre treinamento e teste.
 
