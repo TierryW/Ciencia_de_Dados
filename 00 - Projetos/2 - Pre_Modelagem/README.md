@@ -262,6 +262,18 @@ Durante o desenvolvimento deste projeto, pratiquei conceitos importantes de **Da
 - Git
 - GitHub
 
+### Blibliotecas Utilizadas:
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+import plotly.express as px
+import numpy as np
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split 
+```
+
 ---
 
 ## 🚀 Como Executar

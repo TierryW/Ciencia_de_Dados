@@ -32,12 +32,12 @@ Também foi calculada a mediana dos preços por categoria. A mediana foi utiliza
 
 As categorias identificadas **acima da mediana** foram:
 
-* belleza-y-cuidado-personal
-* congelados
-* frutas
-* verduras
-* lacteos
-* instantaneos-y-sopas
+- belleza-y-cuidado-personal
+- congelados
+- frutas
+- verduras
+- lacteos
+- instantaneos-y-sopas
 
 A categoria identificada **abaixo da mediana** foi:
 
@@ -53,8 +53,8 @@ Essa análise permite identificar categorias nas quais os preços apresentam mai
 
 A comparação entre média e mediana também foi utilizada para observar possíveis comportamentos relacionados a valores extremos.
 
-* **Média > Mediana:** pode indicar a presença de valores elevados que influenciam a média.
-* **Mediana > Média:** pode indicar a presença de valores mais baixos influenciando a média.
+- Média > Mediana: pode indicar a presença de valores elevados que influenciam a média.
+- Mediana > Média: pode indicar a presença de valores mais baixos influenciando a média.
 
 Essa comparação foi utilizada como uma etapa inicial para investigar possíveis **outliers**.
 
@@ -163,6 +163,13 @@ Durante o desenvolvimento deste projeto, pratiquei conceitos importantes de **An
 - CSV
 - Git
 - GitHub
+
+### Blibliotecas Utilizadas:
+
+```python
+import pandas as pd
+import plotly.express as px
+```
 
 ---
 
