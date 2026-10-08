@@ -155,7 +155,7 @@ Portanto, neste caso, a redução das features não tornou o modelo mais simples
 
 ## ⚖️ Comparação com Naive Bayes
 
-O projeto também permitiu comparar a Árvore de Decisão com o modelo **Naive Bayes**, desenvolvido anteriormente para o mesmo problema.
+O projeto também permitiu comparar a Árvore de Decisão com o modelo Naive Bayes, desenvolvido anteriormente para o mesmo problema.
 
 | Modelo            | Acurácia | Recall |
 | ----------------- | -------: | -----: |
