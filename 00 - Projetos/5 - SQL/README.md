@@ -1,4 +1,4 @@
-# 🛒 ANÁLISE DE DADOS DE E-COMMERCE
+<h1 align="center">Análise de Dados E-commerce</h1>
 
 ## 📚 Objetivo
 
