@@ -259,6 +259,7 @@ jupyter notebook
 
 ```
 📂 4 - Arvore_Decisao
+│
 ├── 📄 Projeto.ipynb
 ├── 📄 X_train_balanced.csv
 ├── 📄 y_train_balanced.csv
@@ -270,7 +271,7 @@ jupyter notebook
 
 ---
 
-## 🎯 Resultado Final
+## 🎯 Conclusão
 
 A **Árvore de Decisão** apresentou o melhor desempenho entre os modelos testados para este conjunto de dados, alcançando **98% de acurácia e 100% de recall**.
 

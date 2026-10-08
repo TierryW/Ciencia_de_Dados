@@ -162,6 +162,7 @@ jupyter notebook
 
 ```
 📂 3 - Naive_Bayes
+│
 ├── 📄 Projeto.ipynb
 ├── 📄 X_train_balanced.csv
 ├── 📄 y_train_balanced.csv

@@ -128,18 +128,18 @@ O projeto demonstra como a integração entre **Python, Pandas, SQL, SQLite e Po
 
 Durante o desenvolvimento deste projeto, foram trabalhados conceitos de:
 
-- Manipulação de dados com **Pandas**
-- Leitura e exportação de arquivos **CSV**
-- Criação e utilização de banco de dados **SQLite**
-- Consultas utilizando **SQL**
-- `INNER JOIN`
-- `GROUP BY`
-- `COUNT()` e `SUM()`
-- Agregação de dados
-- Criação de métricas para análise
-- Preparação de dados para **Business Intelligence**
-- Construção de dashboards no **Power BI**
-- Análise de indicadores de vendas
+- Manipulação de dados com **Pandas**.
+- Leitura e exportação de arquivos **CSV**.
+- Criação e utilização de banco de dados **SQLite**.
+- Consultas utilizando **SQL**.
+- `INNER JOIN`.
+- `GROUP BY`.
+- `COUNT()` e `SUM()`.
+- Agregação de dados.
+- Criação de métricas para análise.
+- Preparação de dados para **Business Intelligence**.
+- Construção de dashboards no **Power BI**.
+- Análise de indicadores de vendas.
 
 ---
 
@@ -215,7 +215,7 @@ Após executar a análise, abra o arquivo `Sales.pbix` no Power BI Desktop para 
 
 ---
 
-## 🎯 Resultado Final
+## 🎯 Conclusão
 
 **Python → SQLite → SQL → Dados Consolidados → Power BI → Dashboard**
 
