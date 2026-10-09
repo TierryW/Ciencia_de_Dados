@@ -283,7 +283,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-5. Abra o arquivo `Projeto.ipynb` e execute as células para reproduzir a análise e as visualizações.
+**Abra o arquivo `Projeto.ipynb` e execute as células para reproduzir a análise e as visualizações.**
 
 **Observação:** o arquivo `ALUGUEL.csv` deve estar no diretório esperado pelo código.
 
