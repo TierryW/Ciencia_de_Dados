@@ -200,7 +200,7 @@ Após executar a análise, abra o arquivo `Sales.pbix` no Power BI Desktop para 
 ## 📁 Estrutura do Projeto
 
 ```
-📂 5 - SQL
+📂 6 - SQL
 │
 ├── 📄 TB_TRANSACOES.csv
 ├── 📄 TB_CLIENTES.csv

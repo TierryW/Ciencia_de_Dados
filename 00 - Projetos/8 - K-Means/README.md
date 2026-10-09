@@ -286,7 +286,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 6 - K-Means
+📂 8 - K-Means
 │
 ├── 📄 Mall_Customers.csv
 ├── 📄 Projeto.ipynb

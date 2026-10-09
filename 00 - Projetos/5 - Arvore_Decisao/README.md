@@ -258,7 +258,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 4 - Arvore_Decisao
+📂 5 - Arvore_Decisao
 │
 ├── 📄 Projeto.ipynb
 ├── 📄 X_train_balanced.csv

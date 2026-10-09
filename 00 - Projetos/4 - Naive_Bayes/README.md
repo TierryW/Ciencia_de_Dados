@@ -161,7 +161,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 3 - Naive_Bayes
+📂 4 - Naive_Bayes
 │
 ├── 📄 Projeto.ipynb
 ├── 📄 X_train_balanced.csv
