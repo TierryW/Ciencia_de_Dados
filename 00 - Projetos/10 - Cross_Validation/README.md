@@ -44,16 +44,7 @@ O projeto utiliza o conjunto de dados `SMOKE_DETECTION.csv`.
 
 - `CNT` — Contador de amostras
 
-- `Fire_Alarm (Target)` —Vvariável-alvo utilizada para a classificação binária
-
-### 🎯 Rótulos da variável-alvo
-
-A variável `Fire_Alarm` representa a ocorrência ou não de um incêndio:
-
-- `0` — Não há ocorrência de incêndio.
-- `1` — Há ocorrência de incêndio.
-
-O objetivo do modelo é utilizar as variáveis preditoras da base para identificar padrões associados à ocorrência de incêndios e classificar os registros de acordo com a variável-alvo.
+- `Fire_Alarm (Target)` — (0) Não há ocorrência de incêndio, (1) Há ocorrência de incêndio.
 
 ---
 
