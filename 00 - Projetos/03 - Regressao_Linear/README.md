@@ -14,15 +14,21 @@ Ao final, os modelos são avaliados por meio do coeficiente de determinação (R
 
 O projeto utiliza o conjunto de dados `ALUGUEL.csv`.
 
-As principais variáveis utilizadas são:
+**Variáveis da base de dados:**
 
-- `Valor_Aluguel` — valor do aluguel do imóvel.
-- `Valor_Condominio` — valor do condomínio.
-- `Metragem` — metragem do imóvel.
-- `N_Quartos` — quantidade de quartos.
-- `N_banheiros` — quantidade de banheiros.
-- `N_Suites` — quantidade de suítes.
-- `N_Vagas` — quantidade de vagas de estacionamento.
+- `Valor_Condominio` — valor do condomínio
+
+- `Metragem` — metragem do imóvel
+
+- `N_Quartos` — quantidade de quartos
+
+- `N_banheiros` — quantidade de banheiros
+
+- `N_Suites` — quantidade de suítes
+
+- `N_Vagas` — quantidade de vagas de estacionamento
+
+- `Valor_Aluguel (Target)` — valor do aluguel do imóvel
 
 ---
 
@@ -204,16 +210,6 @@ O resultado sugere que incluir outras características dos imóveis contribuiu p
 
 ---
 
-## 💡 Conclusão
-
-O projeto demonstrou a aplicação de técnicas de análise exploratória, tratamento de possíveis outliers, visualização de dados e Machine Learning para investigar os fatores relacionados aos valores de aluguel.
-
-A regressão linear simples, baseada apenas na metragem, obteve R² de aproximadamente 0.56 nos dados de teste. Já a regressão linear múltipla, que considera seis características dos imóveis, alcançou R² de aproximadamente 0.61 no mesmo tipo de avaliação. Portanto, o modelo múltiplo apresentou melhor desempenho nessa divisão dos dados.
-
-Apesar da melhora, os gráficos mostram diferenças entre os valores reais e previstos, especialmente em imóveis com aluguéis mais elevados. Os modelos podem ser aprimorados com a análise dos resíduos, a avaliação de outras métricas e a inclusão de novas variáveis relevantes.
-
----
-
 ## 📚 O Que Aprendi
 
 - Manipulação de dados com Pandas.
@@ -292,7 +288,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 3 - Regresssao_Linear
+📂 03 - Regresssao_Linear
 │
 ├── 📄 ALUGUEL.csv
 ├── 📄 Projeto.ipynb
@@ -306,5 +302,7 @@ jupyter notebook
 
 **Dados → Análise Exploratória → Tratamento de Outliers → Visualização → Regressão Simples → Regressão Múltipla → Avaliação**
 
-O projeto demonstra como a regressão linear pode ser aplicada à análise de dados imobiliários para investigar a relação entre as características dos imóveis e seus valores de aluguel, transformando dados brutos em informações úteis para análise e previsão.
+O projeto demonstrou a aplicação de técnicas de análise exploratória, tratamento de possíveis outliers, visualização de dados e Machine Learning para investigar os fatores relacionados aos valores de aluguel.
+
+A regressão linear simples, baseada apenas na metragem, obteve R² de aproximadamente 0.56 nos dados de teste. Já a regressão linear múltipla, que considera seis características dos imóveis, alcançou R² de aproximadamente 0.61 no mesmo tipo de avaliação. Portanto, o modelo múltiplo apresentou melhor desempenho nessa divisão dos dados. Apesar da melhora, os gráficos mostram diferenças entre os valores reais e previstos, especialmente em imóveis com aluguéis mais elevados.
 

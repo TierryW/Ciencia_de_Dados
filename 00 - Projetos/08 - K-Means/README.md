@@ -12,15 +12,19 @@ Ao final, os clusters são avaliados por meio de métricas de qualidade e utiliz
 
 ## 📊 Dados
 
-O projeto utiliza o dataset:
+O projeto utiliza o conjunto de dados `Mall_Customers.csv`.
 
-- `Mall_Customers.csv`
+**Variáveis da base de dados:**
 
-As principais variáveis utilizadas na análise são:
+- `CustomerID` - Identificador único atribuído a cada cliente
 
-- `Age` — idade do cliente.
-- `Annual Income (k$)` — renda anual do cliente.
-- `Spending Score (1-100)` — pontuação de consumo do cliente.
+- `Gender` - Gênero do cliente
+
+- `Age` - Idade do cliente
+
+- `Annual Income (k$)` - Renda anual do cliente em milhares de dólares
+
+- `Spending Score (1-100)` - Pontuação atribuída pelo shopping com base no comportamento e padrão de gastos do cliente
 
 As colunas `CustomerID` e `Gender` foram removidas antes da aplicação do algoritmo, pois não foram utilizadas na segmentação.
 
@@ -286,7 +290,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 8 - K-Means
+📂 08 - K-Means
 │
 ├── 📄 Mall_Customers.csv
 ├── 📄 Projeto.ipynb

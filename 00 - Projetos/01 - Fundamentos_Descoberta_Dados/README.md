@@ -10,13 +10,25 @@ O projeto foi desenvolvido com foco na aplicação prática de conceitos de **Da
 
 ---
 
-## 🔎 Análise dos Dados
+## 📊 Dados
 
-A análise foi realizada utilizando a base `BASE_SUPERMERCADO.csv`.
+O projeto utiliza o conjunto de dados `BASE_SUPERMERCADO.csv`.
 
-Inicialmente, os dados foram carregados utilizando **Pandas** e explorados para compreender sua estrutura e visualizar os primeiros registros.
+**Variáveis da base de dados:**
 
-Em seguida, foram realizadas análises agrupando os produtos por **categoria**, utilizando diferentes medidas estatísticas.
+- `Title` - Nome do produto
+
+- `Marca` - A marca do produto
+
+- `Preco_Normal` - O preço em que o produto costuma ser vendido quando não há desconto
+
+- `Preco_Desconto` - O preço vendido após o desconto ser aplicado
+
+- `Preco_Anterior` - Preço em que era comercializado o produto antes do desconto aplicado
+
+- `Desconto` - Total de desconto aplicado
+
+**As categorias estão em espanhol!**
 
 ### 📌 Preço Médio
 
@@ -208,7 +220,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 1 - Fundamentos_Descoberta_Dados
+📂 01 - Fundamentos_Descoberta_Dados
 │
 ├── 📄 Projeto.ipynb
 ├── 📄 BASE_SUPERMERCADO.csv
@@ -223,6 +235,4 @@ jupyter notebook
 Este projeto demonstra a aplicação prática de técnicas de **Análise Exploratória de Dados** para transformar uma base de produtos de supermercado em informações úteis sobre **preços, descontos, categorias e marcas**.
 
 A utilização conjunta de **Pandas e Plotly** permitiu realizar o processo de tratamento, análise e visualização dos dados, desenvolvendo uma abordagem baseada em dados para identificar padrões e possíveis comportamentos relevantes.
-
-O projeto faz parte da minha evolução na área de **Data Analysis**, com foco no desenvolvimento de habilidades em **Python, análise exploratória, visualização de dados e interpretação de informações**.
 

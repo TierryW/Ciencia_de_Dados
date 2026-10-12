@@ -10,26 +10,41 @@ Foi escolhida a **Regressão Logística**, por ser adequada para problemas de cl
 
 ## 📊 Dados
 
-O projeto utiliza o conjunto de dados `SMOKE_DETECTION.csv`, que contém informações ambientais e concentrações de gases e partículas, utilizadas para identificar condições associadas à ocorrência de incêndios.
+O projeto utiliza o conjunto de dados `SMOKE_DETECTION.csv`.
 
-### Variáveis da base de dados
+**Variáveis da base de dados:**
 
-- `Unnamed: 0` — índice dos registros, não utilizado como variável preditora no modelo.
-- `UTC` — tempo em segundos UTC.
-- `Temperature[C]` — temperatura do ar em graus Celsius.
-- `Humidity[%]` — umidade do ar em porcentagem.
-- `TVOC[ppb]` — concentração total de compostos orgânicos voláteis, medida em partes por bilhão.
-- `eCO2[ppm]` — concentração equivalente de CO₂, medida em partes por milhão.
-- `Raw H2` — hidrogênio molecular bruto, não compensado.
-- `Raw Ethanol` — etanol gasoso bruto.
-- `Pressure[hPA]` — pressão do ar em hectopascais.
-- `PM1.0` — concentração de material particulado com tamanho inferior a 1,0 µm.
-- `PM2.5` — concentração de material particulado com tamanho superior a 1,0 µm e inferior a 2,5 µm.
-- `NC0.5` — concentração numérica de partículas com tamanho inferior a 0,5 µm.
-- `NC1.0` — concentração numérica de partículas na faixa de 0,5 µm a 1,0 µm.
-- `NC2.5` — concentração numérica de partículas na faixa de 1,0 µm a 2,5 µm.
-- `CNT` — contador de amostras.
-- `Fire_Alarm` — variável-alvo utilizada para a classificação binária.
+- `Unnamed: 0` — Índice dos registros, não utilizado como variável preditora no modelo
+
+- `UTC` — Tempo em segundos UTC
+
+- `Temperature[C]` — Temperatura do ar em graus Celsius
+
+- `Humidity[%]` — Umidade do ar em porcentagem
+
+- `TVOC[ppb]` — Concentração total de compostos orgânicos voláteis, medida em partes por bilhão
+
+- `eCO2[ppm]` — Concentração equivalente de CO₂, medida em partes por milhão
+
+- `Raw H2` — Hidrogênio molecular bruto, não compensado
+
+- `Raw Ethanol` — Etanol gasoso bruto
+
+- `Pressure[hPA]` — Pressão do ar em hectopascais
+
+- `PM1.0` — Concentração de material particulado com tamanho inferior a 1,0 µm
+
+- `PM2.5` — Concentração de material particulado com tamanho superior a 1,0 µm e inferior a 2,5 µm
+
+- `NC0.5` — Concentração numérica de partículas com tamanho inferior a 0,5 µm
+
+- `NC1.0` — Concentração numérica de partículas na faixa de 0,5 µm a 1,0 µm
+
+- `NC2.5` — Concentração numérica de partículas na faixa de 1,0 µm a 2,5 µm
+
+- `CNT` — Contador de amostras
+
+- `Fire_Alarm (Target)` —Vvariável-alvo utilizada para a classificação binária
 
 ### 🎯 Rótulos da variável-alvo
 
@@ -118,14 +133,6 @@ No código original, também foi calculada a média de uma chamada separada de `
 
 ---
 
-## 📊 Avaliação do Modelo
-
-A avaliação foi realizada utilizando as pontuações obtidas na validação cruzada.
-
-A média aproximada de 97,93% indica que o modelo apresentou uma taxa elevada de acertos nas divisões avaliadas. A proximidade entre as pontuações dos folds também sugere consistência nos resultados obtidos.
-
----
-
 ## 📚 O Que Aprendi
 
 - Manipulação e exploração de dados com Pandas.
@@ -210,5 +217,5 @@ jupyter notebook
 
 O projeto demonstrou a aplicação de técnicas de análise exploratória e Machine Learning para realizar uma classificação binária utilizando a Regressão Logística. Após a inspeção e preparação dos dados, o modelo foi avaliado por meio de validação cruzada com cinco folds.
 
-Apesar dos resultados positivos, a acurácia, isoladamente, não garante que o modelo seja adequado para uma aplicação real. Como se trata de um problema relacionado à detecção de incêndios, é necessário investigar outras métricas, principalmente o recall da classe positiva e a ocorrência de falsos negativos.
+A média aproximada de 97,93% indica que o modelo apresentou uma taxa elevada de acertos nas divisões avaliadas. A proximidade entre as pontuações dos folds também sugere consistência nos resultados obtidos.
 

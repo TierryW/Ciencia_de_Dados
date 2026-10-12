@@ -12,18 +12,27 @@ O projeto envolve tratamento de dados, análise de possíveis outliers, visualiz
 
 O projeto utiliza o conjunto de dados `CARDIO_BASE.csv`.
 
-As principais variáveis são:
+**Variáveis da base de dados:**
 
-- `age` — idade.
-- `gender` — gênero, recodificado durante a preparação dos dados.
-- `height` — altura.
-- `weight` — peso.
-- `cholesterol` — nível de colesterol.
-- `gluc` — nível de glicose.
-- `smoke` — indicador relacionado ao tabagismo.
-- `alco` — indicador relacionado ao consumo de álcool.
-- `active` — indicador de atividade física.
-- `cardio_disease` — variável-alvo que indica a presença ou ausência de doença cardiovascular.
+- `age` — Idade
+
+- `gender` — Gênero, recodificado durante a preparação dos dados
+
+- `height` — Altura
+
+- `weight` — Peso
+
+- `cholesterol` — Nível de colesterol
+
+- `gluc` — Nível de glicose
+
+- `smoke` — Indicador relacionado ao tabagismo
+
+- `alco` — Indicador relacionado ao consumo de álcool
+
+- `active` — Indicador de atividade física
+
+- `cardio_disease (Target)` — Variável que indica a presença ou ausência de doença cardiovascular
 
 ---
 
@@ -170,16 +179,6 @@ A curva ROC foi utilizada para analisar a relação entre a taxa de verdadeiros 
 
 ---
 
-## 💡 Conclusão
-
-O projeto demonstrou a aplicação de análise exploratória, tratamento de outliers, padronização, balanceamento de classes e classificação com Regressão Logística em dados relacionados a doenças cardiovasculares.
-
-O modelo obteve aproximadamente 63% de acurácia no treinamento balanceado e 65% no teste, com AUC registrada de 0,65. Os resultados indicam capacidade moderada de classificação, mas ainda há espaço para melhorias, principalmente na identificação da classe 1.
-
-Como próximos passos, podem ser explorados outros algoritmos de classificação, ajustes de hiperparâmetros, validação cruzada e avaliação de métricas adicionais. Este projeto tem finalidade educacional e analítica e não deve ser utilizado isoladamente para diagnóstico ou decisões clínicas.
-
----
-
 ## 📚 O Que Aprendi
 
 - Manipulação e limpeza de dados com Pandas.
@@ -261,7 +260,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 7 - Regressao_Logistica
+📂 07 - Regressao_Logistica
 │
 ├── CARDIO_BASE.csv
 ├── Projeto.ipynb
@@ -275,6 +274,7 @@ jupyter notebook
 
 **Dados → Análise Exploratória → Tratamento de Outliers → Pré-processamento → SMOTE → Regressão Logística → Avaliação → Curva ROC**
 
-O projeto percorreu as principais etapas de um processo de análise de dados e Machine Learning, desde a exploração e preparação da base até o treinamento e a avaliação do modelo de Regressão Logística. O tratamento de outliers com IQR, a padronização das variáveis e o balanceamento das classes com SMOTE foram aplicados para preparar os dados para a classificação.
-Por fim, o modelo foi avaliado por meio de métricas como acurácia, precisão, recall, F1-score e curva ROC, permitindo analisar seu desempenho na identificação de doenças cardiovasculares. Os resultados indicaram uma capacidade de classificação moderada, evidenciando oportunidades de melhoria por meio de outros algoritmos, ajustes de parâmetros e novas avaliações.
+O projeto demonstrou a aplicação de análise exploratória, tratamento de outliers, padronização, balanceamento de classes e classificação com Regressão Logística em dados relacionados a doenças cardiovasculares.
+
+O modelo obteve aproximadamente 63% de acurácia no treinamento balanceado e 65% no teste, com AUC registrada de 0,65. Os resultados indicam capacidade moderada de classificação, mas ainda há espaço para melhorias, principalmente na identificação da classe 1.
 

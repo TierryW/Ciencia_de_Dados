@@ -170,18 +170,6 @@ Uma possível explicação está na forma como os algoritmos trabalham com as ca
 
 ---
 
-## 💡 Conclusão
-
-A Árvore de Decisão apresentou um desempenho superior ao Naive Bayes neste conjunto de dados, alcançando **98% de acurácia e 100% de recall** no conjunto de teste.
-
-A análise das features também permitiu identificar `Home Ownership_encoded` e `Income` como as principais variáveis utilizadas pelo modelo.
-
-Embora a redução das variáveis tenha diminuído a quantidade de atributos utilizados, o modelo reduzido apresentou uma profundidade maior e uma acurácia inferior, indicando que, para este conjunto de dados, manter mais informações permitiu que a árvore realizasse suas decisões de forma mais eficiente.
-
-De forma geral, o projeto demonstrou a aplicação prática de **Machine Learning para classificação de Credit Score**, desde a preparação dos dados até o treinamento, avaliação, interpretação e comparação de modelos.
-
----
-
 ## 📚 O Que Aprendi
 
 - Aplicação de **Árvore de Decisão** para classificação.
@@ -258,7 +246,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 5 - Arvore_Decisao
+📂 05 - Arvore_Decisao
 │
 ├── 📄 Projeto.ipynb
 ├── 📄 X_train_balanced.csv
@@ -276,4 +264,6 @@ jupyter notebook
 A **Árvore de Decisão** apresentou o melhor desempenho entre os modelos testados para este conjunto de dados, alcançando **98% de acurácia e 100% de recall**.
 
 A análise também mostrou que `Home Ownership_encoded` e `Income` foram as features mais importantes para as decisões do modelo, contribuindo para a interpretação dos padrões utilizados na classificação do Credit Score.
+
+Embora a redução das variáveis tenha diminuído a quantidade de atributos utilizados, o modelo reduzido apresentou uma profundidade maior e uma acurácia inferior, indicando que, para este conjunto de dados, manter mais informações permitiu que a árvore realizasse suas decisões de forma mais eficiente.
 

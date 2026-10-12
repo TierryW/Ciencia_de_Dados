@@ -116,14 +116,6 @@ Entre as profissões com maior volume de compras destacaram-se **Teacher**, **Se
 
 ---
 
-## 🎯 Resultado 
-
-Os resultados demonstram o desempenho das vendas do e-commerce e permitem identificar os estados, gêneros, profissões e categorias de produtos com maior participação nas vendas.
-
-O projeto demonstra como a integração entre **Python, Pandas, SQL, SQLite e Power BI** pode ser utilizada para transformar dados brutos de um e-commerce em informações organizadas e indicadores para análise de desempenho.
-
----
-
 ## 📚 O Que Aprendi
 
 Durante o desenvolvimento deste projeto, foram trabalhados conceitos de:
@@ -200,7 +192,7 @@ Após executar a análise, abra o arquivo `Sales.pbix` no Power BI Desktop para 
 ## 📁 Estrutura do Projeto
 
 ```
-📂 6 - SQL
+📂 06 - SQL
 │
 ├── 📄 TB_TRANSACOES.csv
 ├── 📄 TB_CLIENTES.csv
@@ -219,5 +211,7 @@ Após executar a análise, abra o arquivo `Sales.pbix` no Power BI Desktop para 
 
 **Python → SQLite → SQL → Dados Consolidados → Power BI → Dashboard**
 
-O projeto demonstra um fluxo completo de **tratamento, consulta, consolidação e visualização de dados**, desde os arquivos CSV até a apresentação dos principais indicadores do e-commerce.
+Os resultados demonstram o desempenho das vendas do e-commerce e permitem identificar os estados, gêneros, profissões e categorias de produtos com maior participação nas vendas.
+
+O projeto demonstra como a integração entre **Python, Pandas, SQL, SQLite e Power BI** pode ser utilizada para transformar dados brutos de um e-commerce em informações organizadas e indicadores para análise de desempenho.
 

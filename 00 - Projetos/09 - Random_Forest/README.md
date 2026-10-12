@@ -10,20 +10,33 @@ Foram realizadas análises exploratórias, investigação das correlações entr
 
 ## 📊 Dados
 
-O projeto utiliza o conjunto de dados `winequality-red.csv`, que contém características físico-químicas dos vinhos.
+O projeto utiliza o conjunto de dados `winequality-red.csv`.
 
-- `fixed acidity` — acidez fixa.
-- `volatile acidity` — acidez volátil.
-- `citric acid` — ácido cítrico.
-- `residual sugar` — açúcar residual.
-- `chlorides` — cloretos.
-- `free sulfur dioxide` — dióxido de enxofre livre.
-- `total sulfur dioxide` — dióxido de enxofre total.
-- `density` — densidade.
-- `pH` — medida de acidez.
-- `sulphates` — sulfatos.
-- `alcohol` — teor alcoólico.
-- `quality` — nota de qualidade do vinho, utilizada como variável-alvo.
+**Variáveis da base de dados:**
+
+- `fixed acidity` —Acidez fixa
+
+- `volatile acidity` — Acidez volátil
+
+- `citric acid` — Ácido cítrico
+
+- `residual sugar` — Açúcar residual
+
+- `chlorides` — Cloretos
+
+- `free sulfur dioxide` — Dióxido de enxofre livre
+
+- `total sulfur dioxide` — Dióxido de enxofre total
+
+- `density` — Densidade
+
+- `pH` — Medida de acidez
+
+- `sulphates` — Sulfatos
+
+- `alcohol` — Teor alcoólico
+
+- `quality (Target)` — Nota de qualidade do vinho
 
 ---
 
@@ -151,17 +164,7 @@ Entretanto, as classes 3, 4 e 8 continuaram apresentando desempenho muito baixo 
 | Random Forest com RandomizedSearchCV | 63% |
 | Random Forest com `class_weight` | 67% |
 
-Os resultados indicam aumento gradual da acurácia entre as abordagens avaliadas. No entanto, a matriz de confusão e as métricas por classe mostram que o modelo apresenta dificuldades importantes nas classes minoritárias. Por isso, a acurácia não deve ser analisada isoladamente: precisão, recall e F1-score por classe também são necessários para compreender a qualidade das previsões.
-
----
-
-## 💡 Conclusão
-
-O projeto demonstrou a aplicação de técnicas de análise exploratória e classificação supervisionada para prever a qualidade de vinhos tintos com base em suas características físico-químicas.
-
-O Random Forest inicial obteve aproximadamente 62% de acurácia. A otimização com `RandomizedSearchCV` elevou o resultado para cerca de 63%, enquanto a abordagem com `class_weight` registrou 67%. Apesar da melhora na acurácia, as classes 3, 4 e 8 continuaram apresentando dificuldades de classificação, principalmente devido à quantidade reduzida de exemplos disponíveis.
-
-A análise evidencia que o desbalanceamento dos dados é um dos principais desafios do projeto. Como próximos passos, podem ser testadas outras estratégias de balanceamento, métricas mais adequadas para classes desbalanceadas e validação consistente do pipeline de pré-processamento, além da comparação com outros algoritmos de classificação.
+Os resultados indicam aumento gradual da acurácia entre as abordagens avaliadas. No entanto, a matriz de confusão e as métricas por classe mostram que o modelo apresenta dificuldades importantes nas classes minoritárias.
 
 ---
 
@@ -248,7 +251,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 9 - Random_Forest
+📂 09 - Random_Forest
 │
 ├── 📄 winequality-red.csv
 ├── 📄 Projeto.ipynb
@@ -262,5 +265,9 @@ jupyter notebook
 
 **Dados → Análise Exploratória → Correlação → Divisão Treino/Teste → SMOTE e Padronização → Random Forest → Otimização de Hiperparâmetros → class_weight → Avaliação**
 
-O projeto percorreu as principais etapas de um processo de classificação utilizando Machine Learning, desde a análise exploratória dos dados e identificação de correlações entre as variáveis até o treinamento e a avaliação dos modelos Random Forest. Foram testadas diferentes abordagens para lidar com o desbalanceamento das classes, incluindo SMOTE, padronização dos dados, otimização de hiperparâmetros e utilização do parâmetro `class_weight`.
+O projeto demonstrou a aplicação de técnicas de análise exploratória e classificação supervisionada para prever a qualidade de vinhos tintos com base em suas características físico-químicas.
+
+O Random Forest inicial obteve aproximadamente 62% de acurácia. A otimização com `RandomizedSearchCV` elevou o resultado para cerca de 63%, enquanto a abordagem com `class_weight` registrou 67%. Apesar da melhora na acurácia, as classes 3, 4 e 8 continuaram apresentando dificuldades de classificação, principalmente devido à quantidade reduzida de exemplos disponíveis.
+
+A análise evidencia que o desbalanceamento dos dados é um dos principais desafios do projeto.
 

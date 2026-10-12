@@ -76,20 +76,6 @@ A pequena diferença na acurácia sugere que o modelo não apresentou uma perda 
 
 ---
 
-## 💡 Conclusão
-
-O projeto demonstrou a aplicação do **Naive Bayes** na classificação de clientes de acordo com sua pontuação de crédito.
-
-O modelo apresentou bons resultados tanto nos dados de treinamento quanto nos dados de teste, alcançando **92,68% de acurácia e 96,55% de recall no conjunto de teste**.
-
-A matriz de confusão mostrou que a principal dificuldade do modelo está na diferenciação entre as classes **0 e 1**.
-
-De forma geral, os resultados indicam que o modelo conseguiu identificar os padrões presentes nos dados e apresentar um bom desempenho na classificação de novos registros.
-
-A aplicação desse tipo de modelo pode auxiliar análises de crédito, fornecendo informações baseadas em dados para apoiar processos de avaliação de clientes e tomada de decisão.
-
----
-
 ## 📚 O Que Aprendi
 
 - Aplicação do algoritmo **Naive Bayes** para classificação.
@@ -161,7 +147,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 4 - Naive_Bayes
+📂 04 - Naive_Bayes
 │
 ├── 📄 Projeto.ipynb
 ├── 📄 X_train_balanced.csv
@@ -178,5 +164,7 @@ jupyter notebook
 
 O modelo **Gaussian Naive Bayes** apresentou um bom desempenho na classificação do Credit Score, alcançando **92,68% de acurácia e 96,55% de recall nos dados de teste**.
 
-O projeto representa uma etapa de aplicação prática de **Machine Learning em análise de crédito**, utilizando preparação de dados, treinamento, avaliação e interpretação dos resultados.
+A matriz de confusão mostrou que a principal dificuldade do modelo está na diferenciação entre as classes **0 e 1**.
+
+De forma geral, os resultados indicam que o modelo conseguiu identificar os padrões presentes nos dados e apresentar um bom desempenho na classificação de novos registros. A aplicação desse tipo de modelo pode auxiliar análises de crédito, fornecendo informações baseadas em dados para apoiar processos de avaliação de clientes e tomada de decisão.
 

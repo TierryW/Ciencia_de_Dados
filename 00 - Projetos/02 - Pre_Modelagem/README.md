@@ -10,11 +10,28 @@ O projeto foi desenvolvido com foco na aplicação prática de conceitos de **Da
 
 ---
 
-## 🔎 Análise dos Dados
+## 📊 Dados
 
-A análise foi realizada utilizando a base `CREDIT_SCORE.csv`.
+O projeto utiliza o conjunto de dados `CREDIT_SCORE.csv`.
 
-Inicialmente, os dados foram carregados utilizando **Pandas** e foi realizada uma análise inicial da estrutura do dataset, incluindo tipos de dados, valores ausentes e estatísticas descritivas.
+**Variáveis da base de dados:**
+
+- `Age` - Idade dos nossos clientes
+
+- `Income` - Salário Mensal
+
+- `Gender` - Gênero
+
+- `Education` - Nível de escolaridade dos clientes
+
+- `Marital` -Status Civilmente
+
+- `Number of Children` - Quantidade de filhos
+
+- `Home` - Tipo de residência, alugada ou própria
+
+- `Credit Score` - O score de crédito dos clientes
+
 
 ### 🧹 Tratamento dos Dados
 
@@ -311,7 +328,7 @@ jupyter notebook
 ## 📁 Estrutura do Projeto
 
 ```
-📂 2 - Pre_Modelagem
+📂 02 - Pre_Modelagem
 │
 ├── 📄 Projeto.ipynb
 ├── 📄 CREDIT_SCORE.csv
@@ -330,6 +347,4 @@ jupyter notebook
 Este projeto apresenta uma análise completa de uma base de **Credit Score**, passando pelas principais etapas de um fluxo de análise de dados: **limpeza, tratamento, exploração, visualização, análise de relações entre variáveis e preparação para Machine Learning**.
 
 A utilização de **Pandas, Plotly, Seaborn, Scikit-learn e SMOTE** permitiu transformar os dados brutos em uma base estruturada e preparada para uma etapa posterior de modelagem preditiva.
-
-O projeto contribuiu para o desenvolvimento de habilidades em **Data Analysis, tratamento de dados, visualização, estatística e preparação de datasets para Machine Learning**.
 
